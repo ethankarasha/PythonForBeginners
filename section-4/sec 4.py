@@ -1,16 +1,19 @@
 def hello_world_printer():
     print("hello world")
+    
 
 
-hello_world_printer()
-#name = input("What is your name? ")
+#hello_world_printer()
 
 
-#def name_printer(p1):
-    #print(p1)
+name = input("What is your name? ")
 
 
-    #name_printer(name)
+def name_printer(p1):
+    print(p1)
+
+
+name_printer(name)
 
 
  
@@ -36,11 +39,11 @@ hello_world_printer()
 
 
 
-from random import randint
+#from random import randint
 
-gallons = randint(10,25)
-miles = randint(200,400)
+#gallons = randint(10,25)
+#miles = randint(200,400)
 
-print("The car's MPG is " + str(miles//gallons) + ".")
-print("The number of gallons being held in the the car is " + str(gallons) + ".")
-print("The number of miles the car traveled is " + str(miles) + ".")
+#print("The car's MPG is " + str(miles//gallons) + ".")
+#print("The number of gallons being held in the the car is " + str(gallons) + ".")
+#print("The number of miles the car traveled is " + str(miles) + ".")
